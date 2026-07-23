@@ -255,6 +255,12 @@ function calculateNPF(){
 
 
 
+    const aperture =
+    Number(
+        document.getElementById("aperture").value
+    );
+
+
     // NPFルール
     const shutter =
         (
@@ -264,6 +270,7 @@ function calculateNPF(){
         /
         (
             focal *
+            aperture *
             Math.cos(dec)
         );
 
