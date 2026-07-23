@@ -262,17 +262,11 @@ function calculateNPF(){
 
 
     // NPFルール
+    const c1 = settings.npf.constant_1; // 35
+    const c2 = settings.npf.constant_2; // 30
     const shutter =
-        (
-            35 +
-            30 * pixelPitch
-        )
-        /
-        (
-            focal *
-            aperture *
-            Math.cos(dec)
-        );
+        (c1 + c2) * pixelPitch
+        / (focal * aperture * Math.cos(dec));
 
 
 
