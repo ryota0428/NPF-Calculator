@@ -1,0 +1,110 @@
+[
+  {
+    "value": 0.95,
+    "name": "F0.95"
+  },
+  {
+    "value": 1.0,
+    "name": "F1.0"
+  },
+  {
+    "value": 1.1,
+    "name": "F1.1"
+  },
+  {
+    "value": 1.2,
+    "name": "F1.2"
+  },
+  {
+    "value": 1.4,
+    "name": "F1.4"
+  },
+  {
+    "value": 1.6,
+    "name": "F1.6"
+  },
+  {
+    "value": 1.8,
+    "name": "F1.8"
+  },
+  {
+    "value": 2.0,
+    "name": "F2.0"
+  },
+  {
+    "value": 2.2,
+    "name": "F2.2"
+  },
+  {
+    "value": 2.5,
+    "name": "F2.5"
+  },
+  {
+    "value": 2.8,
+    "name": "F2.8"
+  },
+  {
+    "value": 3.2,
+    "name": "F3.2"
+  },
+  {
+    "value": 3.5,
+    "name": "F3.5"
+  },
+  {
+    "value": 4.0,
+    "name": "F4.0"
+  },
+  {
+    "value": 4.5,
+    "name": "F4.5"
+  },
+  {
+    "value": 5.0,
+    "name": "F5.0"
+  },
+  {
+    "value": 5.6,
+    "name": "F5.6"
+  },
+  {
+    "value": 6.3,
+    "name": "F6.3"
+  },
+  {
+    "value": 7.1,
+    "name": "F7.1"
+  },
+  {
+    "value": 8.0,
+    "name": "F8.0"
+  },
+  {
+    "value": 9.0,
+    "name": "F9.0"
+  },
+  {
+    "value": 10.0,
+    "name": "F10"
+  },
+  {
+    "value": 11.0,
+    "name": "F11"
+  },
+  {
+    "value": 13.0,
+    "name": "F13"
+  },
+  {
+    "value": 16.0,
+    "name": "F16"
+  },
+  {
+    "value": 18.0,
+    "name": "F18"
+  },
+  {
+    "value": 22.0,
+    "name": "F22"
+  }
+]

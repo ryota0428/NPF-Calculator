@@ -1,0 +1,56 @@
+[
+  {
+    "id": "fujifilm_xs10",
+    "name": "FUJIFILM X-S10",
+    "sensor_id": "aps_c_non_canon",
+    "pixels_x": 6240
+  },
+  {
+    "id": "fujifilm_xt4",
+    "name": "FUJIFILM X-T4",
+    "sensor_id": "aps_c_non_canon",
+    "pixels_x": 6240
+  },
+  {
+    "id": "fujifilm_xt5",
+    "name": "FUJIFILM X-T5",
+    "sensor_id": "aps_c_non_canon",
+    "pixels_x": 7728
+  },
+  {
+    "id": "fujifilm_xh2",
+    "name": "FUJIFILM X-H2",
+    "sensor_id": "aps_c_non_canon",
+    "pixels_x": 7728
+  },
+  {
+    "id": "fujifilm_gfx100s",
+    "name": "FUJIFILM GFX100S",
+    "sensor_id": "medium_format",
+    "pixels_x": 11648
+  },
+  {
+    "id": "sony_a7iv",
+    "name": "SONY α7 IV",
+    "sensor_id": "full_frame",
+    "pixels_x": 7008
+  },
+  {
+    "id": "canon_eos_r7",
+    "name": "Canon EOS R7",
+    "sensor_id": "aps_c_canon",
+    "pixels_x": 6960
+  },
+  {
+    "id": "om_system_om1",
+    "name": "OM SYSTEM OM-1",
+    "sensor_id": "micro_four_thirds",
+    "pixels_x": 5184
+  },
+  {
+  "id": "custom",
+  "name": "カスタム",
+  "sensor_id": "",
+  "pixels_x": 0
+}
+]

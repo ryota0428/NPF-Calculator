@@ -1,0 +1,200 @@
+/* 全体 */
+
+body {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    background: #f5f5f5;
+
+    margin: 0;
+
+    padding: 20px;
+}
+
+
+
+/* メイン領域 */
+
+.container {
+
+    max-width: 450px;
+
+    margin: 0 auto;
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 2px 8px rgba(0,0,0,0.15);
+
+}
+
+
+
+/* タイトル */
+
+h1 {
+
+    text-align: center;
+
+    font-size: 24px;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+/* ラベル */
+
+label {
+
+    display: block;
+
+    font-weight: bold;
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+
+}
+
+
+
+/* 入力欄 */
+
+input,
+select {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    font-size: 18px;
+
+    padding: 10px;
+
+    border:
+
+        1px solid #ccc;
+
+    border-radius: 6px;
+
+    background: white;
+
+}
+
+
+
+/* 自動入力項目 */
+
+input:disabled,
+select:disabled,
+input[readonly] {
+
+    background: #e5e5e5;
+
+    color: #777;
+
+    cursor: not-allowed;
+
+}
+
+
+
+/* 計算ボタン */
+
+button {
+
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 14px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* 結果 */
+
+.result {
+
+    text-align: center;
+
+    margin-top: 30px;
+
+}
+
+
+
+.result h2 {
+
+    font-size: 18px;
+
+}
+
+
+
+#result {
+
+    font-size: 36px;
+
+    font-weight: bold;
+
+    margin: 10px;
+
+}
+
+
+
+/* スマホ向け */
+
+@media (max-width: 480px) {
+
+
+    body {
+
+        padding: 10px;
+
+    }
+
+
+    .container {
+
+        padding: 15px;
+
+    }
+
+
+    h1 {
+
+        font-size: 22px;
+
+    }
+
+
+    input,
+    select {
+
+        font-size: 17px;
+
+    }
+
+}

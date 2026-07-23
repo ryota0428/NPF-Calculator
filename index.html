@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NPF Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <h1>NPFルール計算</h1>
+
+
+    <!-- カメラ -->
+    <label for="camera">
+        カメラ
+    </label>
+
+    <select id="camera">
+        <option value="">
+            選択してください
+        </option>
+    </select>
+
+
+
+    <!-- センサーサイズ -->
+    <label for="sensor">
+        センサーサイズ
+    </label>
+
+    <select id="sensor" disabled>
+    </select>
+
+
+
+    <!-- 横画素数 -->
+    <label for="pixels">
+        横方向画素数(px)
+    </label>
+
+    <input
+        id="pixels"
+        type="number"
+        readonly
+    >
+
+
+
+    <!-- 実焦点距離 -->
+    <label for="focal">
+        実焦点距離(mm)
+    </label>
+
+    <input
+        id="focal"
+        type="number"
+        step="0.1"
+        placeholder="例 16"
+    >
+
+
+
+    <!-- F値 -->
+    <label for="aperture">
+        f値
+    </label>
+
+    <select id="aperture">
+    </select>
+
+
+
+    <!-- 赤緯 -->
+    <label for="declination">
+        赤緯
+    </label>
+
+    <input
+        id="declination"
+        type="number"
+        step="1"
+        value="1"
+    >
+
+
+
+    <button id="calculate">
+        計算
+    </button>
+
+
+
+    <!-- 結果 -->
+    <div class="result">
+
+        <h2>
+            推奨シャッター速度
+        </h2>
+
+        <p id="result">
+            -
+        </p>
+
+    </div>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

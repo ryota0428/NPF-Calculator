@@ -1,0 +1,32 @@
+[
+  {
+    "id": "medium_format",
+    "name": "中判",
+    "width_mm": 43.8
+  },
+  {
+    "id": "full_frame",
+    "name": "35mmフルサイズ",
+    "width_mm": 36.0
+  },
+  {
+    "id": "aps_c_non_canon",
+    "name": "APS-C（キャノン以外）",
+    "width_mm": 23.5
+  },
+  {
+    "id": "aps_c_canon",
+    "name": "APS-C（キャノン）",
+    "width_mm": 22.3
+  },
+  {
+    "id": "micro_four_thirds",
+    "name": "マイクロフォーサーズ",
+    "width_mm": 17.3
+  },
+  {
+    "id": "one_inch",
+    "name": "1インチ",
+    "width_mm": 13.2
+  }
+]
